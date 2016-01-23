@@ -1,0 +1,87 @@
+root { 
+    display: block;
+}
+body{
+    margin: 0;
+    background: url(bodyback.png);
+    overflow: hidden;
+    font-family: 'Georgia', 'Trebuchet Ms';
+}
+#container{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 100px;
+    border: thin solid gray;
+}
+#toplayer{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: brown;
+}
+#heading{
+    position: absolute;
+    left: 40px;
+    bottom: 10px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 40px;    
+}
+#goodbox{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: #ccffff;
+}
+#inputboxdiv{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 120px;
+}
+#refreshbutton{
+    width: 120px;
+    height: 30px;    
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    color: brown;
+    background: burlywood;
+    cursor: pointer;
+}
+#centrallayer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: khaki;
+}
+#leftcolumn{
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 100%;
+    border-right: thin solid gray;
+}
+#rightcolumn{
+    position: relative;
+    float: right;
+    padding: 0px 20px;
+    width: 458px;
+    height: 100%;
+    color: #cc0033;
+}
+#bottomlayer{    
+    position: relative;
+    width: 100%;
+    height: 45px;    
+    text-align: center;
+    background: brown;
+    color: white;
+    line-height: 20px;
+}
